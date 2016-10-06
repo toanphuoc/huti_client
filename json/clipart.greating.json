@@ -1,0 +1,69 @@
+{
+	"name" : "clipart",
+	"option": "greating",
+	"data" : [
+		{
+			"img": "imgs/item_1(1).png"
+		},
+		{
+			"img": "imgs/item_1(4).png"
+		},
+		{
+			"img": "imgs/item_2.png"
+		},
+		{
+			"img": "imgs/item_2(1).png"
+		},
+		{
+			"img": "imgs/item_3(1).png"
+		},
+		{
+			"img": "imgs/item_3(4).png"
+		},
+		{
+			"img": "imgs/item_4.png"
+		},
+		{
+			"img": "imgs/item_4(1).png"
+		},
+		{
+			"img": "imgs/item_4(3).png"
+		},
+		{
+			"img": "imgs/item_5.png"
+		},
+		{
+			"img": "imgs/item_5(1).png"
+		},
+		{
+			"img": "imgs/item_6.png"
+		},
+		{
+			"img": "imgs/item_6(1).png"
+		},
+		{
+			"img": "imgs/item_7.png"
+		},
+		{
+			"img": "imgs/item_7.jpg"
+		},
+		{
+			"img": "imgs/item_7(1).png"
+		},
+		{
+			"img": "imgs/item_8.png"
+		},
+		{
+			"img": "imgs/item_9.png"
+		},
+		{
+			"img": "imgs/item_9(1).png"
+		},
+		{
+			"img": "imgs/item_11(1).png"
+		},
+		{
+			"img": "imgs/item_12(3).png"
+		}
+	]
+}

@@ -1,0 +1,309 @@
+<link rel="stylesheet" type="text/css" href="css/in-hinh.css">
+<div class="container-fluid">
+	<div class="row content-draw">
+		<div class="draw-left">
+			<div class="draw-control">
+				<ul class="list-group">
+					<li class="draw-item">
+						<a href="javascript:void(0);" title="" class="option_name active">
+							<span class="glyphicon glyphicon-cloud-upload icon"></span>
+							<span>UPLOAD ẢNH</span>
+						</a>
+						<div class="draw-picture">
+							<div class="upload">
+								<img src="" alt="" style="width:100%;height: 8vw;" title="Click into picture">
+							</div>
+							<input type="file" name="" value="" placeholder="" id="upload_file" style="display:none;" accept="image/*">
+						</div>
+					</li>
+					<li class="draw-item">
+						<a class="option_name" href="javascript:void(0);">
+							<span class="glyphicon glyphicon-font icon"></span>
+							<span>THÊM CHỮ</span>
+						</a>
+						<div class="draw-picture" style="display: none;">
+							<div class="text">
+								Text
+								<!-- <img src="imgs/Text.png" class="itext"> -->
+							</div>
+							<div>
+								<b class="lbFont">Font chữ:</b>
+							</div>
+							<select class="form-control select-font">
+								<!-- <option value="UTM Agin" style="font-family: 'UTM Agin';"">UTM Agin</option>
+								<option value="UTM Agin" style="font-family: 'UTM Agin';"">UTM Agin</option> -->
+							</select>
+						
+							<div style="position: relative;">
+								<div class="font-size">
+									<div class="bfh-selectbox bfh-fontsizes" data-fontsize="24" data-available="24,26,28,36,48,72">
+									
+									</div>
+								</div>
+								<div class="bold-italic">
+									<span class="glyphicon glyphicon-bold bold"></span>
+									<span class="glyphicon glyphicon-italic italic"></span>
+									<input type='text' class="" id="color-picker"/>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</li>
+					<li class="draw-item">
+						<a class="option_name" href="javascript:void(0);">
+							<span class="glyphicon glyphicon-picture icon"></span>
+							<span>TRANG TRÍ</span>
+						</a>
+						<div class="draw-picture" style="display: none;">
+							<!-- <div> -->
+								<select class="form-control select">
+									<option value="cartoon" selected="true">Cartoon</option>
+									<option value="greating">Greating</option>
+									<option value="love">Love</option>
+									<option value="mask">Mask</option>
+									<option value="quote">Quote</option>
+								</select>
+							<!-- </div> -->
+							<div class="lst-pictures clipart" data="clipart">
+							</div>
+						</div>
+					</li>
+					<li class="draw-item">
+						<a class="option_name" href="javascript:void(0);">
+							<span class="glyphicon glyphicon-text-background icon"></span>
+							<span>HÌNH NỀN</span>
+						</a>
+						<div class="draw-picture" style="display: none;">
+							<div class="background-tools">
+								<input type="file" name="" value="" placeholder="" id="upload_file_background" style="display:none;" accept="image/*">
+								<button class="glyphicon glyphicon-trash clear"></button>
+								<button class="glyphicon glyphicon-plus add"></button>
+								<input type='text' class="" id="color-picker-background"/>
+							</div>
+							<select class="form-control select">
+								<option value="picture" selected="true">Picture</option>
+								<option value="title">Title</option>
+							</select>
+							<div class="lst-pictures background" data="background">
+							</div>
+						</div>
+					</li>
+					<!-- <li class="draw-item">
+						<a class="option_name" href="#"><span class="glyphicon glyphicon-menu-right"></span>KHUNG</a>
+						<div class="draw-picture" style="display: none;">
+								<select class="form-control select">
+									<option value="shape" selected="true">Shape</option>
+									<option value="square">Square</option>
+								</select>
+							<div class="lst-pictures frame" data="frame">
+							</div>
+						</div>
+					</li> -->
+					<li class="draw-item">
+						<a class="option_name" href="javascript:void(0);">
+							<span class="glyphicon glyphicon-modal-window icon"></span>
+							<span>LỚP MẶT NẠ</span>
+						</a>
+						<div class="draw-picture" style="display: none;">
+							<!-- <div> -->
+								<select class="form-control select">
+									<option value="frame" selected="true">Frame</option>
+									<option value="shape">Shape</option>
+								</select>
+							<!-- </div> -->
+							
+							<div class="lst-pictures mask" data="mask">
+								<!-- Render from json file-->
+							</div>
+							<input type="file" class="mask_open_image" name="" id="mask_file" style="visibility: hidden;">
+						</div>
+					</li>
+					<li class="draw-item">
+						<a class="option_name" href="javascript:void(0);">
+							<span class="glyphicon glyphicon-equalizer icon"></span>
+							<span>LỌC ẢNH</span>
+						</a>
+						<div class="draw-picture" style="display: none;">
+							<div class="lst-pictures filter">
+								<!-- Render from json file-->
+
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="draw-midle">
+			<div class="draw-tools">
+				<button class="glyphicon glyphicon-file new" data-toggle="tooltip" data-placement="bottom" title="Reset" type="button"></button>
+				<button class="glyphicon glyphicon-eye-open view" type="button" data-toggle="modal" data-target="#view"></button>
+				<button class="glyphicon glyphicon-arrow-left undo" data-toggle="tooltip" data-placement="bottom" title="Undo" type="button"></button>
+				<button class="glyphicon glyphicon-arrow-right redo" data-toggle="tooltip" data-placement="bottom" title="Redo" type="button"></button>
+				<button class="glyphicon glyphicon-remove remove" data-toggle="tooltip" data-placement="bottom" title="Remove" type="button"></button>
+			</div>
+			<div class="div-canvas">
+				<canvas id="canvas" width="756" height="302"></canvas>
+			</div>
+		</div>
+		<div class="draw-right">
+			<div class="title">
+				ĐẶT HÀNG
+			</div>
+			<div class="form-add-card">
+				
+			   	<div class="form-title">
+			   		<strong>Chọn loại ly</strong>
+			   	</div>
+			   	<div class="form-input">
+			   		<select class="form-control sl-ly">
+			   			<option>Ly thường</option>
+			   			<option>Ly Minh Long</option>
+			   		</select>
+			   	</div>
+			   	<div class="form-title">
+			   		<strong>Số lượng</strong>
+			   	</div>
+			   	<div class="form-input">
+			   		<input type="number" class="form-control so-luong" name="">
+			   	</div>
+			   	<div class="total">
+			   		<strong style="margin-top:5px;">Tổng cộng</strong>
+			   		<p>
+			   			<span class="text-left">Tiền ly:</span>
+			   			<span class="text-right pull-right">90.000đ</span>
+			   		</p>
+			   		<p>
+			   			<span class="text-left">Tiền in:</span>
+			   			<span class="text-right pull-right">90.000đ</span>
+			   		</p>
+			   	</div>
+			   	<div class="total">
+			   		<p>
+			   			<!-- <strong class="text-left">THÀNH TIỀN</strong> -->
+			   			<span class="text-right pull-right">180.000đ</span>
+			   			<div class="clearfix"></div>
+			   		</p>
+			   	</div>
+			   	<div class="add">
+			   		<a href="#/gio-hang" class="btn btn-add-card">
+			   			<span class="glyphicon glyphicon-shopping-cart" style="margin-right: 2px;"></span>
+			   			Thêm vào giỏ
+			   		</a>
+			   	</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+
+
+<div class="" style="padding: 0 15px;">
+
+	<h5 class="h5-title">LY MỚI IN XONG</h5>
+	<div class="container-fluid" style="padding: 0 10px;">
+		<div class="row products">
+			<div class="col-smp-5 col-xs-3 item">
+				<div class="product-item">
+					<a href="#">
+						<img src="products/Bosch_Logo-1-300x300.jpg">
+					</a>
+				</div>
+			</div>
+			<div class="col-smp-5 col-xs-3 item">
+				<div class="product-item">
+					<a href="#">
+						<img src="products/1-300x300.jpg">
+					</a>
+				</div>
+			</div>
+			<div class="col-smp-5 col-xs-3 item">
+				<div class="product-item">
+					<a href="#">
+						<img src="products/3-300x300.jpg">
+					</a>
+				</div>
+			</div>
+			<div class="col-smp-5 col-xs-3 item">
+				<div class="product-item">
+					<a href="#">
+						<img src="products/in-hinh-chibi-2-300x300.jpg">
+					</a>
+				</div>
+			</div>
+			<div class="col-smp-5 col-xs-3 item">
+				<div class="product-item">
+					<a href="#">
+						<img src="products/7-300x300.jpg">
+					</a>
+				</div>
+			</div>
+			<div class="col-smp-5 col-xs-3 item">
+				<div class="product-item">
+					<a href="#">
+						<img src="products/in-hinh-chibi-2-300x300 (1).jpg">
+					</a>
+				</div>
+			</div>
+			<div class="col-smp-5 col-xs-3 item">
+				<div class="product-item">
+					<a href="#">
+						<img src="products/in-hinh-chibi-2-300x300.jpg">
+					</a>
+				</div>
+			</div>
+			<div class="col-smp-5 col-xs-3 item">
+				<div class="product-item">
+					<a href="#">
+						<img src="products/in-hinh-chibi-len-ly-300x300.png">
+					</a>
+				</div>
+			</div>
+			<div class="col-smp-5 col-xs-3 item">
+				<div class="product-item">
+					<a href="#">
+						<img src="products/in-hinh-len-ly-chibi-300x300.jpg">
+					</a>
+				</div>
+			</div>
+			<div class="col-smp-5 col-xs-3 item">
+				<div class="product-item">
+					<a href="#">
+						<img src="products/Bosch_Logo-1-300x300.jpg">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<h5 class="h5-title">HỔ TRỢ THIẾT KẾ</h5>
+<!-- 	<div class="text-tutorial">
+		<u>Hướng dẫn sử dụng:</u> (Xem hướng dẫn bằng Video tại <a href="http://youtu.be/qjbc40s4bEw">http://youtu.be/qjbc40s4bEw</a>) <br>
+		- Đầu tiên bạn nên chọn hình để bỏ vào, có 2 cách để open hình: <b>(Click vào hình có nút tròn màu vàng để xoay hình nghiêng)</b><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;+ Nút Open: thêm ảnh tùy ý từ máy của bạn, tốt nhất nên thêm từ 2-3 hình. Bạn có thể chọn khung cho tấm ảnh bằng cách chọn mục :Frame - Khung: chọn hình cần thêm khung, sau đó click chọn mẫu khung thích hợp. Không thể phóng to, thu nhỏ và di chuyển hình trong khung.<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;+ Mask - Mặt nạ: Khác với Frame - khung, bạn phải chọn mask vừa ý rồi app sẽ tự động browse file để bạn chọn hình ảnh cần bỏ vào. Dùng mask bạn có thể phóng to hay thu nhỏ và di chuyển hình trong mask sẵn có.<br>
+		- Clipart - Trang trí: chủ đề cụ thể: cartoon, love, greeting, quote... Bạn chỉ cần nhấp chọn là hình tự động xuất hiện bên phần design, bạn có thể phóng to, thu nhỏ, xoay nghiêng hoặc xóa bỏ. <br>
+		- Background - Hình nền: Nhấp chuột chọn hình nền theo chủ đề ưa thích.<br>
+		- Text - Chữ: Thêm chữ tùy ý, chọn font, màu và kích thước, in đậm, in nghiêng, có thể kéo để cho chữ nằm trên 1 hàng hay nhiều hàng.<br>
+		- Filter - Kính lọc: Bạn có thể tùy chọn hiệu ứng cho tấm ảnh của bạn, như tăng sáng, làm tối, làm nhòe, làm vàng, trắng đen ....<br>
+		- Thanh ngang ở trên: Nút hoàn tác - Nút Crop hình ảnh - Nút resize phóng to thu nhỏ - Nút delete<br>
+		- Sau khi đã chỉnh sửa xong bạn bấm lưu hình và điền đầy đủ thông tin thanh toán.<br>
+		- <a href="http://www.inlysu.org/2013/11/in-hinh-logo-len-ly-gia-re-nhat-tai-tphcm.html">Xem các mẫu ly tại đây</a>
+	</div> -->
+</div>
+<div class="modal fade" id="view" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  	<div class="modal-dialog" role="document">
+    	<div class="modal-content">
+      		<div class="modal-header">
+        		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      		</div>
+      		<div class="modal-body">
+        		<canvas id="canvas-view" width="756" height="302"></canvas>
+      		</div>
+    	</div>
+  </div>
+</div>
+<script type="text/javascript" src="js/bootstrap/bootstrap-formhelpers.js"></script>
+<script type="text/javascript" src="js/draw/canvas.js"></script>
+<script type="text/javascript" src="js/draw/object-fabric.js"></script>
+<script type="text/javascript" src="js/draw/loading.js"></script>
+<script type="text/javascript" src="js/draw/draw.js"></script>

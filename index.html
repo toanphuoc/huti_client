@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html ng-app="hutiApp">
+<head>
+
+	<title></title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open Sans">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-formhelpers.css">
+	<link rel="stylesheet" type="text/css" href="css/spectrum.css">
+	<link rel="stylesheet" type="text/css" href="css/load-font.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+	<script type="text/javascript" src="js/jquery/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
+
+	<script type="text/javascript" src="js/angular/angular.min.js"></script>
+	<script type="text/javascript" src="js/angular/angular-resource.min.js"></script>
+	<script type="text/javascript" src="js/angular/angular-route.min.js"></script>
+	<script type="text/javascript" src="js/angular/angular-sanitize.min.js"></script>
+
+	<script type="text/javascript" src="js/draw/spectrum.js"></script>
+	<script type="text/javascript" src="js/draw/fabric.min.js"></script>
+	<script type="text/javascript" src="js/jquery/jquery.ui.touch-punch.min.js"></script>
+	<script type="text/javascript" src="js/doT.min.js"></script>
+	
+</head>
+<body>
+	<div id="header">
+		<div class="header-top">
+			<div class="col-sm-5 header-top-left">
+				<span class="glyphicon glyphicon-earphone phone-icon">
+					
+				</span>
+				<span >(+84) 968 349 252</span>
+				<span style="margin: 0 8px;">|</span>
+				<span>
+				<a href="#" style="text-decoration: blink;">LIÊN HỆ</a>
+				</span>
+			</div>
+			<div class="col-sm-7 header-top-right">
+				<form class="form-inline">
+					<div class="form-group">
+						<a href="#" class="user">
+							<span class="glyphicon glyphicon-user"></span>
+							<small class="user-name">Đăng nhập</small>
+							<span class="caret"></span>
+						</a>
+					</div>
+				  	<div class="form-group">
+				  		<a href="#/gio-hang" class="shopping-cart">
+				  			<span class="glyphicon glyphicon-shopping-cart icon"></span>
+				  			<span class="badge cart-number">0</span>
+				  		</a>
+				  	</div>
+				  	
+				</form>
+			</div>
+		</div>
+		<div class="header-content">
+			<div class="content row">
+				<div class="col-sm-4 header-content-left">
+				<a href="#/">
+					<img src="imgs/LOGO4.png">
+				</a>
+				</div>
+				<div class="col-sm-8 header-content-right">
+					<ul class="menu">
+						<li class="">
+								<a href="#">TRANG CHỦ</a>
+						</li>
+						<li class="">
+							<a href="#" class="color-black">GIỚI THIỆU</a>
+						</li>
+						<li style="position: relative;">
+							
+							<a href="#">SẢN PHẨM – DỊCH VỤ (SHOP)</a>
+							<span class="glyphicon glyphicon-menu-down icon-new"></span>
+							<span class="new">
+								<span>NEW</span>
+							</span>
+							<!-- <div class="service">Tess</div> -->
+						</li>
+						<li class="">
+							<a href="#" class="color-black">BLOG</a>
+						</li>
+						<li class="">
+							<a href="#" class="color-black">LIÊN HỆ</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+		
+	</div>
+	<div class="content" ng-view>
+		
+	</div>
+	<div class="footer">
+		<div class="container">
+			<div class="footer-ribbon">
+			
+				<a href="#">Get in Touch!</a>
+			</div>
+			<div class="row footer-content">
+				<div class="col-sm-12 col-md-3" style="color:#FCFCFC;">
+					<h3 class="widget-title">HUTISHOP</h3>
+				</div>
+				<div class="col-sm-12 col-md-3 widget">
+				<h3 class="widget-title">Bài viết mới</h3>
+				<ul class="list-group new-write">
+					<li>
+						<a href="#">Quà tặng bạn gái ngày sinh nhật</a>
+					</li>
+					<li>
+						<a href="#" style="color:#D0205E;"> Quà tặng bạn gái ngày Valentine</a>
+					</li>
+					<li>
+						<a href="#">CÁCH IN HÌNH LÊN LY SỨ</a>
+					</li>
+				</ul>
+				</div>
+				<div class="col-sm-12 col-md-3">
+					<h3 class="widget-title">FOLLOW US</h3>
+					<div class="share-links">
+						<a href="https://www.facebook.com/HUTI-SHOP-1650777351910981/"></a>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-3 contact-info">
+					<h3 class="widget-title">LIÊN HỆ</h3>
+					<ul class="list-group">
+						<li>
+							<i class="glyphicon glyphicon-map-marker"></i>
+							<strong>Address:</strong>
+							<span>50/6 Nhất Chi Mai, Tân Bình, Hồ Chí Minh</span>
+						</li>
+						<li>
+							<i class="glyphicon glyphicon-earphone"></i>
+							<strong>Phone:</strong>
+							<span>0968349252</span>
+						</li>
+						<li>
+							<i class="glyphicon glyphicon-envelope"></i>
+							<strong>Email:</strong>
+							<span>
+								<a class="email" href="mailto:Hutishopinfo@gmail.com">Hutishopinfo@gmail.com</a>
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="footer-right"> © Copyright hutishop.com 2016. All Rights Reserved.</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/app/app.js"></script>
+	<script type="text/javascript" src="js/service/service.js"></script>
+	<script type="text/javascript" src="js/controller/in-controller.js"></script>
+	<script type="text/javascript" src="js/controller/shopping-card-controller.js"></script>
+	<script type="text/javascript" src="js/controller/payment.js"></script>
+</body>
+</html>

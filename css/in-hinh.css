@@ -1,0 +1,410 @@
+.content-draw{
+	margin: 0;
+	padding: 0 15px;
+}
+.draw-left{
+	width: 15%;
+    float: left;
+    padding-right: 10px;
+    padding-left: 0;
+    position: relative;
+}
+
+.draw-left .draw-control{
+	overflow: auto;
+    overflow-x: hidden;
+    max-height: 380px;
+    border-top: 1px solid #ddd;
+}
+
+.draw-midle{
+	float: left;
+	width: 70%;
+	position: relative;
+}
+
+.draw-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-top: -1px;
+}
+
+.draw-item a:first-child{
+     color: #D0205E;
+}
+
+.draw-item a{
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    padding: 8px 10px;
+    font-size: 12px;
+}
+
+.draw-item .icon{
+	font-size: 15px;
+    margin-right: 2px;
+}
+
+.draw-item .option_name:hover{
+    color: #fff !important;
+    font-weight: bold;
+    background-color: #D0205E;
+    filter: alpha(opacity=60);
+}
+
+.div-canvas{
+	position: relative;
+}
+
+.div-canvas .canvas-container{
+	margin: 0 auto;
+}
+
+.draw-right{
+	width: 15%;
+    float: left;
+    padding-left: 10px;
+    position: relative;
+}
+
+.draw-right .title{
+	padding: 8px;
+    background-color: #D0205E;
+    color: #fff;
+}
+
+.form-add-card{
+	border: 1px solid #ddd;
+	font-size: 12px;
+	padding: 5px;
+}
+
+.form-add-card .form-title{
+}
+
+.form-add-card .form-input{
+	padding: 2px 0 8px;
+}
+
+.form-title strong{
+	font-weight: 500;
+	font-size: 12px;
+}
+
+.form-add-card .sl-ly, .form-add-card .so-luong{
+	font-size: 12px;
+	height: 30px;
+	padding: 0 12px;
+	border-radius: 2px;
+}
+
+.form-add-card .total{
+	padding: 8px 0px;
+    border-top: 2px solid #D0205E;
+
+}
+
+.form-add-card .add{
+	padding: 12px 0px 10px;
+    border-top: 2px solid #D0205E;
+	text-align: center;
+}
+
+.total p{
+	margin: 5px 0 0px;
+}
+
+
+.btn-add-card {
+    background-color: #D0205E;
+    color: #fff;
+    margin-top: 5px;
+    margin: 0 auto;
+    font-size: 13px;
+}
+
+.btn-add-card:hover{
+	color:#D0205E;
+	background-color: #fff;
+	border-color: #D0205E;
+}
+
+.background-tools{
+    margin-bottom: 5px;
+    text-align: right;
+}
+
+.background-tools .add, .background-tools .clear{
+    padding: 6px 5px;
+    top: 3px;
+    margin-right: 2px;
+}
+
+
+
+.active{
+	color: #fff !important;
+    background-color: #D0205E;
+}
+
+.draw-picture{
+	padding: 6px 5px;
+}
+
+.picture-item{
+	float: left;
+}
+
+.option-filter-picture{
+	margin: 0 10px;
+}
+
+.lst-pictures{
+    margin-top: 5px;
+    padding-left: 8px;
+}
+
+.picture-item{
+	width: 45%;
+    padding: 2px 0px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    height: 6vw;
+    cursor: pointer;
+}
+
+.frame img{
+    background-color: #666;
+}
+
+.filter{
+    margin-top: 0px;
+}
+
+.text-option{
+    border: 1px solid #666;
+}
+
+.select{
+    font-size: 12px;
+    padding: 0px 12px 2px;
+    height: 30px;
+}
+
+.background{
+    padding-left: 0px;
+}
+
+.background img{
+    width: 100%;
+}
+
+.draw-tools{
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    font-size: 15px;
+    color: #666;
+    font-weight: 200;
+    line-height: 30px;
+    padding: 3px 0 3px 10px;
+}
+
+.draw-tools button{
+    padding: 5px;
+    border: 0;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.draw-tools button:hover{
+    border: 1px solid #ccc;
+}
+
+.draw-picture .text{
+    text-align: center;
+    border: 1px dotted #D0205E;
+    cursor: pointer;
+    -webkit-user-drag: element;
+    height: 50px;
+    width: 100%;
+    line-height: 45px;
+    font-family: 'UTM Agin';
+    font-size: 25px;
+}
+
+.draw-picture .lbFont{
+    font-size: 10px;
+    margin: 2px 0px;
+    font-weight: 600;
+    color: #666;
+}
+
+.draw-picture .bfh-selectbox-toggle{
+    height: 32px;
+    padding: 7px 24px 0px 12px;
+    font-size: 11px;
+}
+
+.draw-picture .bfh-selectbox-toggle .selectbox-caret{
+    margin-top: 5px;
+}
+
+.draw-picture .bfh-selectbox-options a{
+    font-size: 11px;
+    min-height: auto !important;
+    padding: 3px 15px !important;
+}
+
+.draw-picture .bold, .draw-picture .italic{
+   padding: 9px 3px 9px 3px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: -1px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.draw-picture .bold-italic .active{
+    background-color: #ccc;
+    border: 1px solid #666;
+}
+
+
+.draw-picture .select-font{
+    height: 32px;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.draw-picture .select-font option{
+    padding: 4px 0;
+}
+
+.font-size{
+    padding: 0;
+    width: 100%;
+    position: relative;
+    padding-right: 115px;
+    float: left;
+}
+
+.bold-italic{
+    padding: 0;
+    text-align: right;
+    position: absolute;
+    right: 0px;
+}
+
+.font-size .bfh-selectbox-options {
+    min-width: 65px;
+    width: 100%;
+}
+
+.draw-picture .bold-italic .sp-light{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: -3px;
+    border: solid 1px #ccc;
+}
+
+
+
+.bfh-selectbox-options{
+    width: 100%;
+}
+
+.draw-picture .font-color .input-group-addon{
+    padding: 10px;
+}
+
+.draw-picture .font-color .bfh-colorpicker-icon{
+    width: 10px;
+    height: 10px;
+}
+
+.draw-picture .font-color .form-control{
+    height: 32px;
+    font-size: 10px;
+}
+
+.draw-picture .apply-font{
+    height: 32px;
+    padding: 2px 10px;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.div-canvas{
+    overflow: auto;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.draw-content{
+    padding-right: 15px;
+}
+
+.text-color{
+    padding: 4px 2px 0 0;
+    width: 60px;
+    position: absolute;
+}
+
+.color-picker{
+    padding: 0;
+    text-align: right;
+    width: 100%;
+    padding-left: 60px;
+}
+
+.upload{
+    border: 1px dashed #D0205E;
+    width: 70%;
+    margin: 0 auto;
+    background: url("../imgs/add.png") no-repeat center;
+    cursor: pointer;
+}
+
+#view .modal-header{
+    padding: 2px;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+    background-color: #D0205E;
+}
+
+#view .modal-header button{
+    position: absolute;
+    right: -12px;
+    top: -8px;
+    border: 3px solid red;
+    padding: 0px 5px;
+    border-radius: 50%;
+    z-index: 1100;
+}
+
+.products .item img{
+    width: 100%;
+}
+
+.products .item{
+    padding: 5px;
+}
+
+.products .product-item{
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+
+.h5-title{
+	color: #D0205E;
+    font-weight: 600;
+    margin-bottom: 0px;
+    padding: 10px;
+    border: 1px solid #ffd8d6;
+    background-color: #fff0ef;
+        box-shadow: 0 5px 0 #fea9a3;
+}

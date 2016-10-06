@@ -1,0 +1,59 @@
+.div-title{
+	        border: 1px solid #ddd;
+    padding: 0 15px;
+    margin-bottom: -6px;
+    background-color: #ddd;
+}
+
+.title{
+	    color: #D0205E;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+.payment-container{
+	margin: 0;
+    border: 0.5px solid #ddd;
+    padding-top: 15px;
+    margin-top: 5px;
+}
+
+.payment-container label{
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.payment-container input, .payment-container select{
+	font-size: 13px;
+}
+
+.payment-container textarea{
+	resize: vertical; 
+	font-size: 13px;
+	max-height: 100px;
+}
+
+.tranfer-method{
+	margin: 0;
+    border: 0.5px solid #ddd;
+    margin-top: 5px;
+    padding-left: 15px;
+}
+
+.send-payment{
+	font-size: 13px;
+    font-weight: 600;
+    margin-top: 5px;
+    background-color: #D0205E;
+    color: #fff;
+     margin: 10px 0;
+
+}
+
+.send-payment:hover{
+	background-color: #fff;
+	color: #D0205E;
+	border: 1px solid #D0205E;
+}

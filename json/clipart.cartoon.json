@@ -1,0 +1,144 @@
+{
+	"name" : "clipart",
+	"option": "cartoon",
+	"data" : [
+		{
+			"img": "imgs/item_1.png"
+		},
+		{
+			"img": "imgs/item_2.png"
+		},
+		{
+			"img": "imgs/item_2(1).png"
+		},
+		{
+			"img": "imgs/item_3.png"
+		},
+		{
+			"img": "imgs/item_3(1).png"
+		},
+		{
+			"img": "imgs/item_4.png"
+		},
+		{
+			"img": "imgs/item_5(1).png"
+		},
+		{
+			"img": "imgs/item_6.png"
+		},
+		{
+			"img": "imgs/item_6(1).png"
+		},
+		{
+			"img": "imgs/item_7.png"
+		},
+		{
+			"img": "imgs/item_7.jpg"
+		},
+		{
+			"img": "imgs/item_9.png"
+		},
+		{
+			"img": "imgs/item_10.png"
+		},
+		{
+			"img": "imgs/item_11.png"
+		},
+		{
+			"img": "imgs/item_12.png"
+		},
+		{
+			"img": "imgs/item_12(3).png"
+		},
+		{
+			"img": "imgs/item_13.png"
+		},
+		{
+			"img": "imgs/item_13(1).png"
+		},
+		{
+			"img": "imgs/item_15.png"
+		},
+		{
+			"img": "imgs/item_16.png"
+		},
+		{
+			"img": "imgs/item_15(1).png"
+		},
+		{
+			"img": "imgs/item_16(1).png"
+		},
+		{
+			"img": "imgs/item_16(3).png"
+		},
+		{
+			"img": "imgs/item_17.png"
+		},
+		{
+			"img": "imgs/item_19.png"
+		},
+		{
+			"img": "imgs/item_20.png"
+		},
+		{
+			"img": "imgs/item_20(1).png"
+		},
+		{
+			"img": "imgs/item_21.png"
+		},
+		{
+			"img": "imgs/item_21(1).png"
+		},
+		{
+			"img": "imgs/item_22.png"
+		},
+		{
+			"img": "imgs/item_22(1).png"
+		},
+		{
+			"img": "imgs/item_23.png"
+		},
+		{
+			"img": "imgs/item_23(1).png"
+		},
+		{
+			"img": "imgs/item_25.png"
+		},
+		{
+			"img": "imgs/item_26.png"
+		},
+		{
+			"img": "imgs/item_25(1).png"
+		},
+		{
+			"img": "imgs/item_27.png"
+		},
+		{
+			"img": "imgs/item_27(1).png"
+		},
+		{
+			"img": "imgs/item_28.png"
+		},
+		{
+			"img": "imgs/item_29.png"
+		},
+		{
+			"img": "imgs/item_29(1).png"
+		},
+		{
+			"img": "imgs/item_32.png"
+		},
+		{
+			"img": "imgs/item_32(1).png"
+		},
+		{
+			"img": "imgs/item_33.png"
+		},
+		{
+			"img": "imgs/item_36.png"
+		},
+		{
+			"img": "imgs/item_37.png"
+		}
+	]
+}

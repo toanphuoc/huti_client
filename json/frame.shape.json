@@ -1,0 +1,162 @@
+{
+	"name": "frame",
+	"option": "shape", 
+	"data" : [
+		{
+			"img": "imgs/mask1.png"
+		},
+		{
+			"img": "imgs/mask2.png"
+		},
+		{
+			"img": "imgs/mask3.png"
+		},
+		{
+			"img": "imgs/mask3b.png"
+		},
+		{
+			"img": "imgs/mask4.png"
+		},
+		{
+			"img": "imgs/mask4(1).png"
+		},
+		{
+			"img": "imgs/mask5.png"
+		},
+		{
+			"img": "imgs/mask6.png"
+		},
+		{
+			"img": "imgs/mask6(1).png"
+		},
+		{
+			"img": "imgs/mask7.png"
+		},
+		{
+			"img": "imgs/mask8.png"
+		},
+		{
+			"img": "imgs/mask9.png"
+		},
+		{
+			"img": "imgs/mask10.png"
+		},
+		{
+			"img": "imgs/mask11.png"
+		},
+		{
+			"img": "imgs/mask12.png"
+		},
+		{
+			"img": "imgs/mask13.png"
+		},
+		{
+			"img": "imgs/mask14.png"
+		},
+		{
+			"img": "imgs/mask15.png"
+		},
+		{
+			"img": "imgs/mask16.png"
+		},
+		{
+			"img": "imgs/mask17.png"
+		},
+		{
+			"img": "imgs/mask18.png"
+		},
+		{
+			"img": "imgs/mask19.png"
+		},
+		{
+			"img": "imgs/mask21.png"
+		},
+		{
+			"img": "imgs/mask22.png"
+		},
+		{
+			"img": "imgs/mask23.png"
+		},
+		{
+			"img": "imgs/mask24.png"
+		},
+		{
+			"img": "imgs/mask25.png"
+		},
+		{
+			"img": "imgs/mask26.png"
+		},
+		{
+			"img": "imgs/mask27.png"
+		},
+		{
+			"img": "imgs/mask28.png"
+		},
+		{
+			"img": "imgs/mask29.png"
+		},
+		{
+			"img": "imgs/mask30.png"
+		},
+		{
+			"img": "imgs/mask31.png"
+		},
+		{
+			"img": "imgs/mask31m.png"
+		},
+		{
+			"img": "imgs/mask32.png"
+		},
+		{
+			"img": "imgs/mask33.png"
+		},
+		{
+			"img": "imgs/mask34.png"
+		},
+		{
+			"img": "imgs/mask35.png"
+		},
+		{
+			"img": "imgs/mask36.png"
+		},
+		{
+			"img": "imgs/mask37.png"
+		},
+		{
+			"img": "imgs/mask38.png"
+		},
+		{
+			"img": "imgs/mask39.png"
+		},
+		{
+			"img": "imgs/mask40.png"
+		},
+		{
+			"img": "imgs/mask41.png"
+		},
+		{
+			"img": "imgs/mask42.png"
+		},
+		{
+			"img": "imgs/mask43.png"
+		},
+		{
+			"img": "imgs/mask44.png"
+		},
+		{
+			"img": "imgs/mask45.png"
+		},
+		{
+			"img": "imgs/mask111.png"
+		},
+		{
+			"img": "imgs/mask222.png"
+		},
+		{
+			"img": "imgs/mask333.png"
+		},
+		{
+			"img": "imgs/mask555.png"
+		}
+	]
+}

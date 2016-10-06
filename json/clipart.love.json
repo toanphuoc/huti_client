@@ -1,0 +1,39 @@
+{
+	"name" : "clipart",
+	"option": "love",
+	"data" : [
+		{
+			"img": "imgs/item_1(2).png"
+		},
+		{
+			"img": "imgs/item_2(2).png"
+		},
+		{
+			"img": "imgs/item_3(2).png"
+		},
+		{
+			"img": "imgs/item_4(2).png"
+		},
+		{
+			"img": "imgs/item_5(2).png"
+		},
+		{
+			"img": "imgs/item_6(2).png"
+		},
+		{
+			"img": "imgs/item_7(2).png"
+		},
+		{
+			"img": "imgs/item_9(2).png"
+		},
+		{
+			"img": "imgs/item_10(2).png"
+		},
+		{
+			"img": "imgs/item_15(3).png"
+		},
+		{
+			"img": "imgs/item_38(1).png"
+		}	
+	]
+}

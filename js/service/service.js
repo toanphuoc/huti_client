@@ -1,0 +1,1 @@
+var hutiService = angular.module('hutiService', ['ngResource']);

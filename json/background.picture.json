@@ -1,0 +1,297 @@
+{
+	"name": "background",
+	"option": "picture", 
+	"data" : [
+		{
+			"img": "imgs/bg1.png"
+		},
+		{
+			"img": "imgs/bg24.png"
+		},
+		{
+			"img": "imgs/bg25.jpg"
+		},
+		{
+			"img": "imgs/bg26.png"
+		},
+		{
+			"img": "imgs/bg27.png"
+		},
+		{
+			"img": "imgs/bg29.png"
+		},
+		{
+			"img": "imgs/bg30.png"
+		},
+		{
+			"img": "imgs/bg31.png"
+		},
+		{
+			"img": "imgs/bg32.png"
+		},
+		{
+			"img": "imgs/bg33.png"
+		},
+		{
+			"img": "imgs/bg34.png"
+		},
+		{
+			"img": "imgs/bg35.png"
+		},
+		{
+			"img": "imgs/bg37.png"
+		},
+		{
+			"img": "imgs/bg38.png"
+		},
+		{
+			"img": "imgs/bg39.png"
+		},
+		{
+			"img": "imgs/bg40.png"
+		},
+		{
+			"img": "imgs/bg41.png"
+		},
+		{
+			"img": "imgs/bg42.png"
+		},
+		{
+			"img": "imgs/bg45.png"
+		},
+		{
+			"img": "imgs/bg46.png"
+		},
+		{
+			"img": "imgs/bg47.png"
+		},
+		{
+			"img": "imgs/bg48.png"
+		},
+		{
+			"img": "imgs/bg49.png"
+		},
+		{
+			"img": "imgs/bg50.png"
+		},
+		{
+			"img": "imgs/bg51.png"
+		},
+		{
+			"img": "imgs/bg52.png"
+		},
+		{
+			"img": "imgs/bg53.png"
+		},
+		{
+			"img": "imgs/bg54.png"
+		},
+		{
+			"img": "imgs/bg55.png"
+		},
+		{
+			"img": "imgs/bg56.png"
+		},
+		{
+			"img": "imgs/bg57.png"
+		},
+		{
+			"img": "imgs/bg58.png"
+		},
+		{
+			"img": "imgs/bg59.png"
+		},
+		{
+			"img": "imgs/bg60.png"
+		},
+		{
+			"img": "imgs/bg62.png"
+		},
+		{
+			"img": "imgs/bg63.png"
+		},
+		{
+			"img": "imgs/bg64.png"
+		},
+		{
+			"img": "imgs/bg65.png"
+		},
+		{
+			"img": "imgs/bg66.png"
+		},
+		{
+			"img": "imgs/bg67.png"
+		},
+		{
+			"img": "imgs/bg68.png"
+		},
+		{
+			"img": "imgs/bg69.png"
+		},
+		{
+			"img": "imgs/bg70.png"
+		},
+		{
+			"img": "imgs/bg71.png"
+		},
+		{
+			"img": "imgs/bg72.png"
+		},
+		{
+			"img": "imgs/bg73.png"
+		},
+		{
+			"img": "imgs/bg74.png"
+		},
+		{
+			"img": "imgs/bg75.png"
+		},
+		{
+			"img": "imgs/bg76.png"
+		},
+		{
+			"img": "imgs/bg77.png"
+		},
+		{
+			"img": "imgs/bg78.png"
+		},
+		{
+			"img": "imgs/bg79.png"
+		},
+		{
+			"img": "imgs/bg80.png"
+		},
+		{
+			"img": "imgs/bg81.png"
+		},
+		{
+			"img": "imgs/bg82.png"
+		},
+		{
+			"img": "imgs/bg83.png"
+		},
+		{
+			"img": "imgs/bg84.png"
+		},
+		{
+			"img": "imgs/bg85.png"
+		},
+		{
+			"img": "imgs/bg86.png"
+		},
+		{
+			"img": "imgs/bg87.png"
+		},
+		{
+			"img": "imgs/bg88.png"
+		},
+		{
+			"img": "imgs/bg89.png"
+		},
+		{
+			"img": "imgs/bg90.png"
+		},
+		{
+			"img": "imgs/bg91.png"
+		},
+		{
+			"img": "imgs/bg92.png"
+		},
+		{
+			"img": "imgs/bg93.png"
+		},
+		{
+			"img": "imgs/bg94.png"
+		},
+		{
+			"img": "imgs/bg95.png"
+		},
+		{
+			"img": "imgs/bg96.png"
+		},
+		{
+			"img": "imgs/bg97.png"
+		},
+		{
+			"img": "imgs/bg98.png"
+		},
+		{
+			"img": "imgs/bg99.png"
+		},
+		{
+			"img": "imgs/bg100.png"
+		},
+		{
+			"img": "imgs/bg101.png"
+		},
+		{
+			"img": "imgs/bg102.png"
+		},
+		{
+			"img": "imgs/bg103.png"
+		},
+		{
+			"img": "imgs/BG2.png"
+		},
+		{
+			"img": "imgs/BG3.png"
+		},
+		{
+			"img": "imgs/BG4.png"
+		},
+		{
+			"img": "imgs/BG5.png"
+		},
+		{
+			"img": "imgs/BG6.png"
+		},
+		{
+			"img": "imgs/BG7.png"
+		},
+		{
+			"img": "imgs/BG8.png"
+		},
+		{
+			"img": "imgs/BG9.png"
+		},
+		{
+			"img": "imgs/BG10.png"
+		},
+		{
+			"img": "imgs/BG11.png"
+		},
+		{
+			"img": "imgs/BG12.png"
+		},
+		{
+			"img": "imgs/BG13.png"
+		},
+		{
+			"img": "imgs/BG14.png"
+		},
+		{
+			"img": "imgs/BG15.png"
+		},
+		{
+			"img": "imgs/BG16.png"
+		},
+		{
+			"img": "imgs/BG17.png"
+		},
+		{
+			"img": "imgs/BG18.png"
+		},
+		{
+			"img": "imgs/BG20.png"
+		},
+		{
+			"img": "imgs/BG21.png"
+		},
+		{
+			"img": "imgs/BG22.png"
+		},
+		{
+			"img": "imgs/BG23.png"
+		}
+	]
+}

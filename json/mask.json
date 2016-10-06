@@ -1,0 +1,225 @@
+{
+	"name": "mask",
+	"data" : [
+		{
+			"img": "imgs/mask1.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask2.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask3.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask3b.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask4.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask4(1).png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask5.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask6.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask6(1).png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask7.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask8.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask9.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask10.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask11.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask12.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask13.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask14.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask15.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask16.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask17.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask18.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask19.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask21.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask22.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask23.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask24.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask25.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask26.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask27.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask28.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask29.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask30.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask31.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask31m.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask32.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask33.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask34.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask35.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask36.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask37.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask38.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask39.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask40.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask41.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask42.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask43.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask44.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask45.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask111.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask222.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask333.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask555.png",
+			"option":"frame"
+		},
+		{
+			"img": "imgs/mask7(1).png",
+			"option":"shape"
+		},
+		{
+			"img": "imgs/mask8(1).png",
+			"option":"shape"
+		},
+		{
+			"img": "imgs/mask9(1).png",
+			"option":"shape"
+		}
+	]
+}

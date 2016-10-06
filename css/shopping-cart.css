@@ -1,0 +1,114 @@
+.title{
+	color: #D0205E; font-weight: 600; margin-bottom:5px;
+}
+
+.btn-back{
+	background-color: #D0205E;
+    color: #fff;
+    margin-top: 5px;
+    margin: 0 auto;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.btn-back:hover{
+	color: #D0205E;
+	background-color: #fff;
+	border: 1px solid #D0205E;
+}
+
+.lst-card{
+	font-size: 12px;
+}
+
+.lst-card thead td{
+	font-weight: 600;
+}
+
+.lst-card th{
+	text-align: center;
+	font-size: 13px;
+}
+
+.lst-card td{
+	text-align: center
+}
+
+.lst-card .delete{
+	border: 1px solid #ddd;
+    padding: 5px;
+    background-color: #fff;
+    color: #D0205E;
+    outline: none;
+}
+
+.lst-card .delete:hover{
+	background-color: #D0205E;
+	color: #fff;
+}
+
+.card-item-name-pic, .card-item-design-pic{
+	width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.card-item-name{
+	color: #D0205E;
+    font-weight: 600;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-top: 0;
+    margin-bottom: 0;
+}
+
+
+.card-item-name-pic img{
+	width: 80%;
+	cursor: pointer;
+}
+
+.card-item-design-pic img{
+	width: 100%;
+	cursor: pointer;
+}
+
+.card-item-ss{
+	padding: 6px 6px;
+	font-size: 10px;
+	outline: none;
+}
+
+.total{
+	
+}
+
+.lb-total{
+	border: 1px solid #ddd;
+    padding: 5px;
+    line-height: 2;
+    margin-bottom: 0;
+    border-bottom: 2px solid #D0205E;
+}
+
+.value-total{
+	font-size: 12px;
+	color: #D0205E;
+}
+
+.btn-payment{
+	width: 100%;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 5px;
+    background-color: #D0205E;
+    color: #fff;
+}
+
+.btn-payment:hover{
+	color: #D0205E;
+	background-color: #fff;
+	border: 1px solid #D0205E;
+}

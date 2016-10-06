@@ -1,0 +1,138 @@
+{
+	"name" : "filter",
+	"data" : [
+		{
+			"img": "imgs/0000(1).png",
+			"filter": "0000"
+		},
+		{
+			"img": "imgs/Kinetic.Filters.Blur_filterRadius@4.png",
+			"filter" : "Blur_filterRadius@4"
+		},
+		{
+			"img": "imgs/Kinetic.Filters.Brighten_filterBrightness@20.png",
+			"filter": "Brighten_filterBrightness@20"
+		},
+		{
+			"img": "imgs/Kinetic.Filters.Brighten_filterBrightness@-20.png",
+			"filter": "Brighten_filterBrightness@-20"
+		},
+		{
+			"img": "imgs/Kinetic.Filters.Edge_filterAmount@10.png",
+			"filter": "Edge_filterAmount@10"
+		},
+		{
+			"img": "imgs/Kinetic.Filters.Emboss_filterAmount@10.png",
+			"filter": "Emboss_filterAmount@10"
+		},
+		{
+			"img": "imgs/Kinetic.Filters.Grayscale.png",
+			"filter": "Grayscale"
+		},
+		{
+			"img": "imgs/Kinetic.Filters.HSL_hue@0_saturation@0.5_luminance@0.5.png",
+			"filter": "HSL_hue@0_saturation@0.5_luminance@0.5"
+		},
+		{
+			"img": "imgs/Kinetic.Filters.HSL_hue@90_saturation@0.5_luminance@0.5.png",
+			"filter": "HSL_hue@270_saturation@0.5_luminance@0.5"
+		},
+		{
+			"img": "imgs/Kinetic.Filters.HSL_hue@180_saturation@0.5_luminance@0.5.png",
+			"filter": "HSL_hue@180_saturation@0.5_luminance@0.5"
+		},
+		{
+			"img": "imgs/Kinetic.Filters.HSL_hue@270_saturation@0.5_luminance@0.5.png",
+			"filter": "HSL_hue@90_saturation@0.5_luminance@0.5"
+		},
+		{
+			"img": "imgs/Kinetic.Filters.HSV_hue@0_saturation@0.5_value@0.5.png",
+			"filter": "HSV_hue@0_saturation@0.5_value@0.5"
+		},
+		{
+			"img": "imgs/Kinetic.Filters.HSV_hue@90_saturation@0.5_value@0.5.png",
+			"filter": "HSV_hue@90_saturation@0.5_value@0.5"
+		},
+		{
+			"img": "imgs/Kinetic.Filters.HSV_hue@180_saturation@0.5_value@0.5.png",
+			"filter": "HSV_hue@180_saturation@0.5_value@0.5"
+		},
+		{
+			"img": "imgs/Kinetic.Filters.HSV_hue@270_saturation@0.5_value@0.5.png",
+			"filter": "HSV_hue@270_saturation@0.5_value@0.5"
+		},
+		{
+			"img": "imgs/Kinetic.Filters.Invert.png",
+			"filter": "Invert"
+		},
+		{
+			"img": "imgs/Kinetic.Filters.Noise_noise@0.3.png",
+			"filter": "Noise_noise@0.3"
+		},
+		{
+			"img": "imgs/Kinetic.Filters.Pixelate_pixelSize@4.png",
+			"filter": "Pixelate_pixelSize@4"
+		},
+		{
+			"img": "imgs/Kinetic.Filters.Pixelate_pixelSize@10.png",
+			"filter": "Pixelate_pixelSize@10"
+		},
+		{
+			"img": "imgs/Kinetic.Filters.Pixelate_pixelSize@20.png",
+			"filter": "Pixelate_pixelSize@20"
+		},
+		{
+			"img": "imgs/Kinetic.Filters.RGB_red@100_blue@100_green@100.png",
+			"filter": "RGB_red@100_blue@100_green@100"
+		},
+		{
+			"img": "imgs/Kinetic.Filters.RGB_red@100_blue@100_green@255.png",
+			"filter": "RGB_red@100_blue@100_green@255"
+		},
+		{
+			"img": "imgs/Kinetic.Filters.RGB_red@100_blue@255_green@100.png",
+			"filter": "RGB_red@100_blue@255_green@100"
+		},
+		{
+			"img": "imgs/Kinetic.Filters.RGB_red@255_blue@100_green@100.png",
+			"filter": "RGB_red@255_blue@100_green@100"
+		},
+		{
+			"img": "imgs/Kinetic.Filters.Sepia.png",
+			"filter": "Sepia"
+		},
+		{
+			"img": "imgs/Kinetic.Filters.ShiftHue_filterHueShiftDeg@0.png",
+			"filter": "ShiftHue_filterHueShiftDeg@0"
+		},
+		{
+			"img": "imgs/Kinetic.Filters.ShiftHue_filterHueShiftDeg@90.png",
+			"filter": "ShiftHue_filterHueShiftDeg@90"
+		},
+		{
+			"img": "imgs/Kinetic.Filters.ShiftHue_filterHueShiftDeg@180.png",
+			"filter": "ShiftHue_filterHueShiftDeg@180"
+		},
+		{
+			"img": "imgs/Kinetic.Filters.ShiftHue_filterHueShiftDeg@270.png",
+			"filter": "ShiftHue_filterHueShiftDeg@270"
+		},
+		{
+			"img": "imgs/Kinetic.Filters.SoftBlur_filterAmount@4.png",
+			"filter": "SoftBlur_filterAmount@4"
+		},
+		{
+			"img": "imgs/Kinetic.Filters.Solarize.png",
+			"filter": "Solarize"
+		},
+		{
+			"img": "imgs/Kinetic.Filters.Threshold_threshold@0.5.png",
+			"filter": "Threshold_threshold@0.5"
+		},
+		{
+			"img": "imgs/Kinetic.Filters.UnsharpMask_filterAmount@4.png",
+			"filter": "UnsharpMask_filterAmount@4"
+		}
+
+	]
+}

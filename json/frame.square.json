@@ -1,0 +1,15 @@
+{
+	"name": "frame",
+	"option": "square", 
+	"data" : [
+		{
+			"img": "imgs/mask7(1).png"
+		},
+		{
+			"img": "imgs/mask8(1).png"
+		},
+		{
+			"img": "imgs/mask9(1).png"
+		}
+	]
+}
