@@ -82,7 +82,9 @@
 }
 
 .total{
-	
+	margin-top: 10px;
+    border-top: 1px solid #D0205E;
+    padding-top: 5px;
 }
 
 .lb-total{
@@ -90,7 +92,6 @@
     padding: 5px;
     line-height: 2;
     margin-bottom: 0;
-    border-bottom: 2px solid #D0205E;
 }
 
 .value-total{
