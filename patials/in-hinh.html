@@ -1,7 +1,7 @@
 <link rel="stylesheet" type="text/css" href="css/in-hinh.css">
 <div class="container-fluid">
 	<div class="row content-draw">
-		<div class="draw-left">
+		<div class="col-sm-2 draw-left">
 			<div class="draw-control">
 				<ul class="list-group">
 					<li class="draw-item">
@@ -11,7 +11,7 @@
 						</a>
 						<div class="draw-picture">
 							<div class="upload">
-								<img src="" alt="" style="width:100%;height: 8vw;" title="Click into picture">
+								<img src="" alt="" style="width:100%;height: 5vw;" title="Click into picture">
 							</div>
 							<input type="file" name="" value="" placeholder="" id="upload_file" style="display:none;" accept="image/*">
 						</div>
@@ -133,7 +133,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="draw-midle">
+		<div class="col-sm-8 draw-midle">
 			<div class="draw-tools">
 				<button class="glyphicon glyphicon-file new" data-toggle="tooltip" data-placement="bottom" title="Reset" type="button"></button>
 				<button class="glyphicon glyphicon-eye-open view" type="button" data-toggle="modal" data-target="#view"></button>
@@ -144,8 +144,82 @@
 			<div class="div-canvas">
 				<canvas id="canvas" width="756" height="302"></canvas>
 			</div>
+			<h5 class="h5-title"><span class="glyphicon glyphicon-info-sign"></span>Hướng dẫn sử dụng</h5>
+			<div class="panel-group tutorial-use" id="accordion" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default tutorial-item">
+				    <div class="panel-heading heading" role="tab" id="headingOne">
+				      	<h4 class="panel-title">
+				        	<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" target="_self">
+				          	Upload ảnh
+				        	</a>
+				      	</h4>
+				    </div>
+				    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+				      	<div class="panel-body">
+				        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+				      	</div>
+				    </div>
+				</div>
+				<div class="panel panel-default tutorial-item">
+				    <div class="panel-heading heading" role="tab" id="headingTwo">
+				      	<h4 class="panel-title">
+				        	<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" target="_self">
+				        	Thêm chữ
+				        	</a>
+				      	</h4>
+				    </div>
+				    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+				      	<div class="panel-body">
+				        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+				      	</div>
+				    </div>
+				</div>
+				<div class="panel panel-default tutorial-item">
+				    <div class="panel-heading heading" role="tab" id="headingThree">
+				      	<h4 class="panel-title">
+				        	<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree" target="_self">
+				          Trang trí
+				        	</a>
+				      	</h4>
+				    </div>
+				    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+				      	<div class="panel-body">
+				        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+				      	</div>
+				    </div>
+				</div>
+				<div class="panel panel-default tutorial-item">
+				    <div class="panel-heading heading" role="tab" id="headingThree">
+				      	<h4 class="panel-title">
+				        	<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour" target="_self">
+				          	Hình nền
+				        	</a>
+				      	</h4>
+				    </div>
+				    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+				      	<div class="panel-body">
+				        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+				      	</div>
+				    </div>
+				</div>
+
+				<div class="panel panel-default tutorial-item">
+				    <div class="panel-heading heading" role="tab" id="headingThree">
+				      	<h4 class="panel-title">
+				        	<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive" target="_self">
+				          	Lớp mặt nạ
+				        	</a>
+				      	</h4>
+				    </div>
+				    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+				      	<div class="panel-body">
+				        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+				      	</div>
+				    </div>
+				</div>
+			</div>
 		</div>
-		<div class="draw-right">
+		<div class="col-sm-2 draw-right">
 			<div class="title">
 				ĐẶT HÀNG
 			</div>
@@ -164,7 +238,7 @@
 			   		<strong>Số lượng</strong>
 			   	</div>
 			   	<div class="form-input">
-			   		<input type="number" class="form-control so-luong" name="">
+			   		<input type="number" class="form-control so-luong" name="" value="1">
 			   	</div>
 			   	<div class="total">
 			   		<strong style="margin-top:5px;">Tổng cộng</strong>
@@ -196,10 +270,8 @@
 	</div>
 </div>
 
-
-
 <div class="" style="padding: 0 15px;">
-
+	<h5 class="h5-title">HỔ TRỢ THIẾT KẾ</h5>
 	<h5 class="h5-title">LY MỚI IN XONG</h5>
 	<div class="container-fluid" style="padding: 0 10px;">
 		<div class="row products">
@@ -275,7 +347,6 @@
 			</div>
 		</div>
 	</div>
-	<h5 class="h5-title">HỔ TRỢ THIẾT KẾ</h5>
 <!-- 	<div class="text-tutorial">
 		<u>Hướng dẫn sử dụng:</u> (Xem hướng dẫn bằng Video tại <a href="http://youtu.be/qjbc40s4bEw">http://youtu.be/qjbc40s4bEw</a>) <br>
 		- Đầu tiên bạn nên chọn hình để bỏ vào, có 2 cách để open hình: <b>(Click vào hình có nút tròn màu vàng để xoay hình nghiêng)</b><br>

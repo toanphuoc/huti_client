@@ -1,26 +1,28 @@
+@media screen and (min-width: 1200px){
+    .draw-right{
+        width: 15%;
+    }
+}
+
 .content-draw{
 	margin: 0;
-	padding: 0 15px;
 }
 .draw-left{
 	width: 15%;
-    float: left;
-    padding-right: 10px;
+    padding-right: 0;
     padding-left: 0;
-    position: relative;
 }
 
 .draw-left .draw-control{
 	overflow: auto;
     overflow-x: hidden;
-    max-height: 380px;
+    max-height: 600px;
     border-top: 1px solid #ddd;
 }
 
 .draw-midle{
-	float: left;
-	width: 70%;
-	position: relative;
+    width: 70%;
+    padding: 0 10px
 }
 
 .draw-item {
@@ -37,7 +39,7 @@
     cursor: pointer;
     display: block;
     text-decoration: none;
-    padding: 8px 10px;
+    padding: 8.5px 10px;
     font-size: 12px;
 }
 
@@ -62,10 +64,8 @@
 }
 
 .draw-right{
-	width: 15%;
-    float: left;
-    padding-left: 10px;
-    position: relative;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .draw-right .title{
@@ -102,7 +102,6 @@
 .form-add-card .total{
 	padding: 8px 0px;
     border-top: 2px solid #D0205E;
-
 }
 
 .form-add-card .add{
@@ -122,6 +121,7 @@
     margin-top: 5px;
     margin: 0 auto;
     font-size: 13px;
+    font-weight: 600;
 }
 
 .btn-add-card:hover{
@@ -243,8 +243,8 @@
 
 .draw-picture .bfh-selectbox-toggle{
     height: 32px;
-    padding: 7px 24px 0px 12px;
-    font-size: 11px;
+    padding: 8px 20px 0px 7px;
+    font-size: 10px;
 }
 
 .draw-picture .bfh-selectbox-toggle .selectbox-caret{
@@ -286,7 +286,7 @@
     padding: 0;
     width: 100%;
     position: relative;
-    padding-right: 115px;
+    padding-right: 100px;
     float: left;
 }
 
@@ -339,7 +339,7 @@
 .div-canvas{
     overflow: auto;
     border: 1px solid #ccc;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .draw-content{
@@ -398,13 +398,18 @@
     padding: 5px;
 }
 
+.tutorial-use{
+    margin: 5px 0;
+}
 
-.h5-title{
-	color: #D0205E;
-    font-weight: 600;
-    margin-bottom: 0px;
+.tutorial-use .tutorial-item{
+    border-radius: 2px;
+}
+
+.tutorial-use .tutorial-item .heading{
     padding: 10px;
-    border: 1px solid #ffd8d6;
-    background-color: #fff0ef;
-        box-shadow: 0 5px 0 #fea9a3;
+}
+
+.tutorial-use .tutorial-item .heading h4{
+    font-size: 14px;
 }

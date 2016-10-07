@@ -410,4 +410,19 @@ body{
     margin: 0;
 }
 
+.h5-title{
+    color: #D0205E;
+    font-weight: 600;
+    margin-bottom: 0px;
+    padding: 10px;
+    border: 1px solid #ffd8d6;
+    background-color: #fff0ef;
+    box-shadow: 0 5px 0 #fea9a3;
+}
+
+.h5-title span{
+    font-size: 15px;
+    margin-right: 5px;
+}
+
 
