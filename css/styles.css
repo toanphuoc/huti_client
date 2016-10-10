@@ -365,8 +365,6 @@ body{
     }
 }
 
-
-
 .hide{
 	display: none;
 }
@@ -425,4 +423,31 @@ body{
     margin-right: 5px;
 }
 
+.products{
+    margin-top: 5px;
+}
 
+.products .product-item{
+    padding: 5px 5px 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.product-item img{
+    width: 100%;
+}
+
+.product-name{
+    text-align: center;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.amount{
+        text-align: center;
+    display: block;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 20px;
+}

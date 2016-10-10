@@ -384,20 +384,6 @@
     z-index: 1100;
 }
 
-.products .item img{
-    width: 100%;
-}
-
-.products .item{
-    padding: 5px;
-}
-
-.products .product-item{
-    border: 1px solid #ccc;
-    border-radius: 2px;
-    padding: 5px;
-}
-
 .tutorial-use{
     margin: 5px 0;
 }
@@ -412,4 +398,22 @@
 
 .tutorial-use .tutorial-item .heading h4{
     font-size: 14px;
+}
+
+.newest-in{
+    margin-top: 5px;
+}
+
+.newest-in .item img{
+    width: 100%;
+}
+
+.newest-in .item{
+    padding: 5px;
+}
+
+.newest-in .newest-item{
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 5px;
 }

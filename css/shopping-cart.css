@@ -95,8 +95,9 @@
 }
 
 .value-total{
-	font-size: 12px;
+	font-size: 16px;
 	color: #D0205E;
+	float: right;
 }
 
 .btn-payment{
