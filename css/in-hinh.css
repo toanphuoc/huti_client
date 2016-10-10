@@ -16,7 +16,7 @@
 .draw-left .draw-control{
 	overflow: auto;
     overflow-x: hidden;
-    max-height: 600px;
+    max-height: 640px;
     border-top: 1px solid #ddd;
 }
 
