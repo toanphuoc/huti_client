@@ -28,7 +28,7 @@
 	
 </head>
 <body>
-	<div id="header">
+	<div id="header" ng-controller="PageCommonCtrl">
 		<div class="header-top">
 			<div class="col-sm-5 header-top-left">
 				<span class="glyphicon glyphicon-earphone phone-icon">
@@ -99,7 +99,7 @@
 	<div class="content" ng-view>
 		
 	</div>
-	<div class="footer">
+	<div class="footer" ng-controller="PageCommonCtrl">
 		<div class="container">
 			<div class="footer-ribbon">
 			
@@ -161,7 +161,7 @@
 		</div>
 	</div>
 
-	<div class="modal fade" id="modal_login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal fade" id="modal_login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" ng-controller="LoginCtrl">
 		<div class="modal-dialog" role="document">
 		    <div class="modal-content">
 		      	<div class="modal-header">
@@ -186,7 +186,7 @@
 									      	<a href="">Quên mật khẩu</a>
 									    </label> | 
 									    <label class="forgot-pass">
-									    	<a href="">Tạo tài khoản</a>
+									    	<a href="javascript:void(0);" ng-click="register()">Tạo tài khoản</a>
 									    </label>
 								  	</div>
 								  	<div class="form-group text-right">
@@ -219,5 +219,6 @@
 	<script type="text/javascript" src="js/controller/in-controller.js"></script>
 	<script type="text/javascript" src="js/controller/shopping-card-controller.js"></script>
 	<script type="text/javascript" src="js/controller/payment.js"></script>
+	<script type="text/javascript" src="js/controller/register.js"></script>
 </body>
 </html>

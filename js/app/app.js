@@ -22,6 +22,10 @@ hutiApp.config(['$routeProvider', function($routeProvider) {
         templateUrl: 'patials/payment-success.html',
         controller: 'PaymentSuccessCtrl'
     }).
+    when('/dang-ky', {
+        templateUrl: 'patials/register.html',
+        controller: 'RegisterCtrl'
+    }).
     otherwise({
         redirectTo: '/'
     });

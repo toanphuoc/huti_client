@@ -1,0 +1,26 @@
+.register{
+	margin: 5px 0 0 0;
+	border: 1px solid #ddd;
+	padding-top: 15px;
+}
+
+.register label{
+	font-size: 13px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.register input{
+	font-size: 13px;
+}
+
+.btn-register{
+	background-color: #D0205E;
+    color: #fff;
+}
+
+.btn-register:hover{
+	background-color: #fff;
+    color: #D0205E;
+    border: 1px solid #D0205E;
+}
