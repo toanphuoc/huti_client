@@ -325,10 +325,6 @@ body{
         width: 970px;   
     }
 
-    .modal-dialog{
-        width: 788px;
-    }
-
     .col-smp-5{
         width: 20%;
     }
@@ -358,10 +354,6 @@ body{
 
     .footer-bottom .container{
         width: 1170px;   
-    }
-
-    .modal-dialog{
-        width: 788px;
     }
 }
 
@@ -439,7 +431,6 @@ body{
 
 .product-name{
     text-align: center;
-    font-weight: 600;
     margin-top: 5px;
     margin-bottom: 2px;
 }
@@ -450,4 +441,56 @@ body{
     font-weight: 600;
     font-size: 15px;
     margin-bottom: 20px;
+}
+
+.login-normal{
+    border-right: 1px solid #ddd;
+}
+
+.form-login{
+    border-top: 3px solid #D0205E;
+}
+
+.form-login .lb{
+    margin-bottom: 2px;
+    font-weight: 500;
+}
+
+.bt-login{
+    background-color: #D0205E;
+    color: #fff;
+}
+
+.bt-login:hover{
+    background-color: #fff;
+    color: #D0205E;
+    border: 1px solid #D0205E;
+}
+
+.forgot-pass{
+    padding-left: 0 !important;
+}
+
+.btn-facebook{
+    background-color: #428bca;
+    border-color: #357ebd;
+    color: #fff;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-facebook-f:before, .fa-facebook:before {
+    content: "f";
+}
+
+.login-fb{
+        text-align: center;
+        line-height: 14.5;
 }

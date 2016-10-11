@@ -3,7 +3,7 @@ var canvas = new fabric.Canvas('canvas',{
 });
 
 var widthScreen = $(window).width();
-canvas.setDimensions({width: 756, height: 302});
+canvas.setDimensions({width: 754, height: 302});
 
 var $canvas = $("#canvas");
 var canvasOffset = $canvas.offset();
