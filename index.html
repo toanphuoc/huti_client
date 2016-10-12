@@ -6,6 +6,7 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open Sans">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-formhelpers.css">
 	<link rel="stylesheet" type="text/css" href="css/spectrum.css">
@@ -26,6 +27,24 @@
 	<script type="text/javascript" src="js/jquery/jquery.ui.touch-punch.min.js"></script>
 	<script type="text/javascript" src="js/doT.min.js"></script>
 	
+
+	<script type="text/javascript">
+		window.fbAsyncInit = function() {
+		    FB.init({
+		      appId      : '602910086426951',
+		      xfbml      : true,
+		      version    : 'v2.8'
+		    });
+	  	};
+
+	  	(function(d, s, id){
+		     var js, fjs = d.getElementsByTagName(s)[0];
+		     if (d.getElementById(id)) {return;}
+		     js = d.createElement(s); js.id = id;
+		     js.src = "//connect.facebook.net/en_US/sdk.js";
+		     fjs.parentNode.insertBefore(js, fjs);
+	   	}(document, 'script', 'facebook-jssdk'));
+	</script>
 </head>
 <body>
 	<div id="header" ng-controller="PageCommonCtrl">
@@ -126,7 +145,18 @@
 				<div class="col-sm-12 col-md-3">
 					<h3 class="widget-title">FOLLOW US</h3>
 					<div class="share-links">
-						<a href="https://www.facebook.com/HUTI-SHOP-1650777351910981/"></a>
+						<a href="https://www.facebook.com/HUTI-SHOP-1650777351910981/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Facebook" class="share-facebook">
+							<i class="fa fa-facebook-f"></i>
+						</a>
+						<a href="https://www.youtube.com/channel/UC130EqNNzAxSnq60T7NfLzQ" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Youtube" class="share-youtube">
+							<i class="fa fa-youtube"></i>
+						</a>
+						<a href="https://www.instagram.com/hutishop/?hl=en" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Instagram" class="share-instagram">
+							<i class="fa fa-instagram"></i>
+						</a>
+						<a href="https://plus.google.com/u/0/108855610509770096933/posts?hl=en" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Instagram" class="share-googleplus">
+							<i class="fa fa-google-plus"></i>
+						</a>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-3 contact-info">
@@ -219,6 +249,7 @@
 	<script type="text/javascript" src="js/controller/in-controller.js"></script>
 	<script type="text/javascript" src="js/controller/shopping-card-controller.js"></script>
 	<script type="text/javascript" src="js/controller/payment.js"></script>
+	<script type="text/javascript" src="js/controller/payment-success.js"></script>
 	<script type="text/javascript" src="js/controller/register.js"></script>
 </body>
 </html>

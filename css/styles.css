@@ -219,16 +219,59 @@ body{
     color: #fff;
 }
 
-.share-links a{
-    background: #9e9e9e;
-    color: #fff;
+.share-links{
+    position: relative;
+    vertical-align: middle;
+}
 
+.share-links a{
     border-radius: 100%;
+    background: #fff;
     width: 30px;
     height: 30px;
     font-size: 14px;
     text-decoration: none;
+    display: inline-block;
+    background: #9e9e9e;
+    color: #fff;
+    position: relative;
+    margin-right: 4px;
 }
+
+.share-facebook:hover{
+    background-color: #3b5a9a;
+}
+
+.share-youtube:hover{
+    background-color: #c3191e;
+}
+
+.share-instagram:hover{
+    background-color: #7c4a3a;
+}
+
+.share-googleplus:hover{
+    background-color: #dd4b39;
+}
+
+.share-googleplus i{
+    position: absolute;
+    top: 8px;
+    left: 6px;
+}
+
+.share-facebook i{
+    position: absolute;
+    top: 8px;
+    left: 11px;
+}
+
+.share-youtube i, .share-instagram i{
+    position: absolute;
+    top: 8px;
+    left: 9px;   
+}
+
 .contact-info{
     color: #777;
     margin-bottom: 30px;
@@ -445,6 +488,7 @@ body{
 
 .login-normal{
     border-right: 1px solid #ddd;
+    padding-left: 0;
 }
 
 .form-login{
@@ -477,7 +521,7 @@ body{
     color: #fff;
 }
 
-.fa {
+/* .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
     font-size: inherit;
@@ -488,9 +532,10 @@ body{
 
 .fa-facebook-f:before, .fa-facebook:before {
     content: "f";
-}
+} */
 
 .login-fb{
-        text-align: center;
-        line-height: 14.5;
+    text-align: center;
+    line-height: 14.5;
+    padding-right: 0;
 }
